@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vocabulary</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_go_home">Back to home</string>
+    <string name="action_another_round">Another round</string>
+    <string name="action_add_word">Add vocabulary</string>
+    <string name="action_clear_search">Clear search</string>
+    <string name="action_check">Check</string>
+    <string name="action_done">Done</string>
+
+    <plurals name="words_count">
+        <item quantity="one">%d word</item>
+        <item quantity="other">%d words</item>
+    </plurals>
+    <plurals name="languages_count">
+        <item quantity="one">%d language</item>
+        <item quantity="other">%d languages</item>
+    </plurals>
+    <plurals name="vocabularies_count">
+        <item quantity="one">%d word</item>
+        <item quantity="other">%d words</item>
+    </plurals>
+    <plurals name="days_count">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="study_days_total">
+        <item quantity="one">%d study day in total</item>
+        <item quantity="other">%d study days in total</item>
+    </plurals>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hello!</string>
+    <string name="dashboard_title">Ready for a round?</string>
+    <string name="dashboard_subtitle">Small steps, every day.</string>
+    <string name="streak_title">Daily streak</string>
+    <string name="streak_empty">Start your streak today</string>
+    <string name="streak_keep_alive">Earn %1$d XP today to keep your streak.</string>
+    <string name="streak_done">Nice! Your streak is safe for today.</string>
+    <string name="daily_goal_title">Daily goal</string>
+    <string name="daily_goal_xp">%1$d / %2$d XP</string>
+    <string name="daily_goal_remaining">%1$d XP left to your goal</string>
+    <string name="daily_goal_reached">Daily goal reached!</string>
+    <string name="continue_learning">Keep learning</string>
+    <string name="dashboard_library_title">My vocabulary</string>
+    <string name="your_languages">Your languages</string>
+    <string name="week_label">Your week</string>
+    <string name="today_mastered_progress">%1$s mastered today</string>
+    <string name="dashboard_empty_title">Your vocabulary is waiting</string>
+    <string name="dashboard_empty_body">Add a few words and start your first round.</string>
+
+    <!-- Study calendar -->
+    <string name="calendar_title">Study calendar</string>
+    <string name="calendar_subtitle">Every day you have practiced.</string>
+    <string name="calendar_open">Open calendar</string>
+    <string name="calendar_month_days">Study days</string>
+    <string name="calendar_month_xp">XP</string>
+    <string name="calendar_month_mastered">Words</string>
+    <string name="calendar_empty_month">There are no study days in this month yet.</string>
+    <string name="calendar_legend_practiced">Practiced</string>
+    <string name="calendar_legend_goal">Daily goal reached</string>
+    <string name="calendar_previous_month">Previous month</string>
+    <string name="calendar_next_month">Next month</string>
+    <string name="calendar_today">Today</string>
+    <string name="calendar_day_description">%1$s: %2$d XP, %3$d mastered</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Make Vocabulary yours.</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system_desc">Follows your device setting.</string>
+    <string name="settings_theme_light_desc">Always use the light palette.</string>
+    <string name="settings_theme_dark_desc">Always use the dark palette.</string>
+    <string name="settings_language">Native language</string>
+    <string name="settings_language_body">Language of the interface and your translations. The language you practice is the foreign language.</string>
+    <string name="settings_language_german">Deutsch</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_mascot">Your mascot</string>
+    <string name="settings_mascot_body">Pick a companion for your dashboard and rounds.</string>
+    <string name="settings_footer">Changes are saved immediately.</string>
+    <string name="mascot_fox">Fox</string>
+    <string name="mascot_chameleon">Chameleon</string>
+    <string name="mascot_dog">Dog</string>
+    <string name="mascot_fox_tagline">Clever, curious and always by your side.</string>
+    <string name="mascot_chameleon_tagline">Adaptable and ready for every language.</string>
+    <string name="mascot_dog_tagline">Loyal, cheerful and your biggest fan.</string>
+
+    <!-- Library -->
+    <string name="library_title">My vocabulary</string>
+    <string name="library_subtitle">All words from every folder, grouped by language.</string>
+    <string name="search_hint">Search vocabulary</string>
+    <string name="filter_all_languages">All languages</string>
+    <string name="empty_search_title">Nothing found</string>
+    <string name="empty_search_body">Try another search term or filter.</string>
+    <string name="reset_filters">Reset filters</string>
+    <string name="add_word_title">New vocabulary</string>
+    <string name="edit_word_title">Edit vocabulary</string>
+    <string name="field_native">Native language</string>
+    <string name="field_foreign">Foreign language</string>
+    <string name="field_language">Language</string>
+    <string name="field_category">Category</string>
+    <string name="field_folder">Folder</string>
+    <string name="placeholder_native">e.g. the apple</string>
+    <string name="placeholder_foreign">e.g. la pomme</string>
+    <string name="placeholder_language">e.g. French</string>
+    <string name="placeholder_category">e.g. Food</string>
+    <string name="language_suggestions">Quick picks</string>
+    <string name="form_error_native">Please enter the native word.</string>
+    <string name="form_error_foreign">Please enter the foreign word.</string>
+    <string name="form_error_language">Please enter a language.</string>
+    <string name="delete_word_title">Delete vocabulary?</string>
+    <string name="delete_word_body">“%1$s” will be removed permanently.</string>
+    <string name="word_added">Vocabulary added</string>
+    <string name="word_updated">Vocabulary saved</string>
+    <string name="word_deleted">Vocabulary deleted</string>
+    <string name="category_fallback">General</string>
+    <string name="folder_editor_empty">No folders yet. Create them at the top of the library.</string>
+
+    <!-- Folders -->
+    <string name="folder_all">All folders</string>
+    <string name="library_scope_all_folders">from all folders</string>
+    <string name="folder_none">No folder</string>
+    <string name="folder_add">Create folder</string>
+    <string name="folder_manage_title">Manage folders</string>
+    <string name="folder_manage_body">Group vocabulary for a test or a topic.</string>
+    <string name="folder_name_label">Folder name</string>
+    <string name="folder_name_placeholder">e.g. Test Nov 21</string>
+    <string name="folder_empty_list">No folders created yet.</string>
+    <string name="folder_name_exists">That folder name already exists.</string>
+    <string name="folder_name_required">Please enter a name.</string>
+    <string name="folder_created">Folder created</string>
+    <string name="folder_deleted">Folder deleted</string>
+    <string name="folder_delete_note">Vocabulary stays in your library when a folder is deleted.</string>
+    <string name="folder_delete_cd">Delete folder: %1$s</string>
+    <string name="folder_empty_title">This folder is empty</string>
+    <string name="folder_empty_body">Assign vocabulary to it while editing a word.</string>
+    <string name="folder_chip">%1$s · %2$d</string>
+
+    <!-- Session setup -->
+    <string name="setup_title">Prepare a round</string>
+    <string name="setup_headline">What are you learning today?</string>
+    <string name="setup_subtitle">Choose material, direction, goal and focus.</string>
+    <string name="setup_source">Study material</string>
+    <string name="source_language">Language</string>
+    <string name="source_folder">Folder</string>
+    <string name="section_language">Foreign language</string>
+    <string name="section_folder">Folder</string>
+    <string name="section_goal">Session goal</string>
+    <string name="section_direction">Learning direction</string>
+    <string name="section_answer_mode">Answer mode</string>
+    <string name="direction_foreign_native">Foreign → native</string>
+    <string name="direction_native_foreign">Native → foreign</string>
+    <string name="direction_foreign_native_desc">You see the foreign word and answer in your native language.</string>
+    <string name="direction_native_foreign_desc">You see your native word and answer in the foreign language.</string>
+    <string name="answer_choice">Multiple choice</string>
+    <string name="answer_typing">Typing</string>
+    <string name="answer_choice_desc">Pick one of four answers.</string>
+    <string name="answer_typing_desc">Type the translation yourself.</string>
+    <string name="goal_hint">A word only counts as learned after two correct answers in a row.</string>
+    <string name="goal_capped">Only %1$d words available – we will use all of them.</string>
+    <string name="goal_all_count">All (%1$d)</string>
+    <string name="goal_custom">Custom number</string>
+    <string name="goal_custom_label">Number of words</string>
+    <string name="goal_custom_invalid">Enter a number between 2 and %1$d.</string>
+    <string name="focus_title">Focus mode</string>
+    <string name="focus_body">Locks the app with screen pinning. There is no cancel button until every word was answered correctly twice.</string>
+    <string name="focus_warning">Android may ask you to confirm screen pinning when the round starts. Back gestures are blocked.</string>
+    <string name="focus_active">Focus active</string>
+    <string name="focus_inactive">Not active</string>
+    <string name="start_session">Start round</string>
+    <string name="start_summary">%1$s · %2$d words</string>
+    <string name="not_enough_words">You need at least 2 words in this selection.</string>
+    <string name="setup_add_words">Add vocabulary</string>
+    <string name="setup_manage_folders">Go to library</string>
+    <string name="no_languages_title">No vocabulary yet</string>
+    <string name="no_languages_body">Add a few words first, then your first round can start.</string>
+    <string name="setup_folder_empty_title">No folders yet</string>
+    <string name="setup_folder_empty_body">Create a folder in the library and fill it with vocabulary.</string>
+
+    <!-- Learning session -->
+    <string name="session_instruction">Choose the correct translation</string>
+    <string name="session_instruction_typing">Type the correct translation</string>
+    <string name="session_focus_locked">Focus mode is active – finish the round first.</string>
+    <string name="session_progress">%1$d of %2$d mastered</string>
+    <string name="session_question_label">What does it mean?</string>
+    <string name="session_question_reverse">What is the translation?</string>
+    <string name="correct_title">Correct!</string>
+    <string name="correct_next">One more correct answer and it sticks.</string>
+    <string name="correct_mastered">Word mastered!</string>
+    <string name="wrong_title">Almost there!</string>
+    <string name="wrong_body">The correct answer is: %1$s</string>
+    <string name="wrong_hint">This word will come back later.</string>
+    <string name="loading_words">Preparing your round…</string>
+    <string name="session_no_words">No vocabulary was found for this selection.</string>
+    <string name="session_locked_chip">Focus</string>
+    <string name="typed_answer_label">Your answer</string>
+    <string name="typed_answer_placeholder">Type the translation</string>
+    <string name="typed_answer_hint">Capitalization and accents do not matter.</string>
+    <string name="cd_answer_input">Answer field</string>
+
+    <!-- Results -->
+    <string name="result_headline">Round complete!</string>
+    <string name="result_perfect">Perfect round!</string>
+    <string name="result_perfect_body">No mistakes. +%1$d bonus XP</string>
+    <string name="result_subtitle">%1$s · %2$d words mastered</string>
+    <string name="result_stat_words">Mastered</string>
+    <string name="result_stat_accuracy">Accuracy</string>
+    <string name="result_stat_xp">XP earned</string>
+    <string name="result_stat_time">Time</string>
+    <string name="result_accuracy_value">%1$d %%</string>
+    <string name="result_xp_value">+%1$d XP</string>
+    <string name="result_perfect_badge">PERFECT</string>
+    <string name="duration_seconds">%1$d sec</string>
+    <string name="duration_minutes">%1$d:%2$02d min</string>
+
+    <!-- Accessibility -->
+    <string name="cd_daily_goal">Daily goal: %1$d of %2$d XP</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_add_word">Add vocabulary</string>
+    <string name="cd_edit_word">Edit vocabulary: %1$s</string>
+    <string name="cd_delete_word">Delete vocabulary: %1$s</string>
+    <string name="cd_mascot">Vocabulary mascot</string>
+    <string name="cd_correct">Correct answer</string>
+    <string name="cd_wrong">Wrong answer</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_manage_folders">Manage folders</string>
+    <string name="cd_week_goal_met">, goal met</string>
+    <string name="cd_week_today">, today</string>
+</resources>

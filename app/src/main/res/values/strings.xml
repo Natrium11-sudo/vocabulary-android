@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wortschatz</string>
+
+    <!-- Common -->
+    <string name="action_back">Zurück</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_continue">Weiter</string>
+    <string name="action_go_home">Zur Startseite</string>
+    <string name="action_another_round">Noch eine Runde</string>
+    <string name="action_add_word">Vokabel hinzufügen</string>
+    <string name="action_clear_search">Suche löschen</string>
+    <string name="action_check">Prüfen</string>
+    <string name="action_done">Fertig</string>
+
+    <plurals name="words_count">
+        <item quantity="one">%d Wort</item>
+        <item quantity="other">%d Wörter</item>
+    </plurals>
+    <plurals name="languages_count">
+        <item quantity="one">%d Sprache</item>
+        <item quantity="other">%d Sprachen</item>
+    </plurals>
+    <plurals name="vocabularies_count">
+        <item quantity="one">%d Vokabel</item>
+        <item quantity="other">%d Vokabeln</item>
+    </plurals>
+    <plurals name="days_count">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <plurals name="study_days_total">
+        <item quantity="one">%d Lerntag insgesamt</item>
+        <item quantity="other">%d Lerntage insgesamt</item>
+    </plurals>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hallo!</string>
+    <string name="dashboard_title">Bereit für eine Runde?</string>
+    <string name="dashboard_subtitle">Kleine Schritte, jeden Tag.</string>
+    <string name="streak_title">Tagesstreak</string>
+    <string name="streak_empty">Starte heute deine Serie</string>
+    <string name="streak_keep_alive">Lerne heute %1$d XP, um deine Serie zu halten.</string>
+    <string name="streak_done">Stark! Deine Serie ist für heute gesichert.</string>
+    <string name="daily_goal_title">Tagesziel</string>
+    <string name="daily_goal_xp">%1$d / %2$d XP</string>
+    <string name="daily_goal_remaining">Noch %1$d XP bis zum Ziel</string>
+    <string name="daily_goal_reached">Tagesziel erreicht!</string>
+    <string name="continue_learning">Weiterlernen</string>
+    <string name="dashboard_library_title">Meine Vokabeln</string>
+    <string name="your_languages">Deine Sprachen</string>
+    <string name="week_label">Deine Woche</string>
+    <string name="today_mastered_progress">%1$s heute gemeistert</string>
+    <string name="dashboard_empty_title">Dein Wortschatz wartet</string>
+    <string name="dashboard_empty_body">Füge ein paar Vokabeln hinzu und starte deine erste Runde.</string>
+
+    <!-- Study calendar -->
+    <string name="calendar_title">Lernkalender</string>
+    <string name="calendar_subtitle">Alle Tage, an denen du geübt hast.</string>
+    <string name="calendar_open">Kalender öffnen</string>
+    <string name="calendar_month_days">Lerntage</string>
+    <string name="calendar_month_xp">XP</string>
+    <string name="calendar_month_mastered">Vokabeln</string>
+    <string name="calendar_empty_month">In diesem Monat gibt es noch keine Lerntage.</string>
+    <string name="calendar_legend_practiced">Gelernt</string>
+    <string name="calendar_legend_goal">Tagesziel erreicht</string>
+    <string name="calendar_previous_month">Vorheriger Monat</string>
+    <string name="calendar_next_month">Nächster Monat</string>
+    <string name="calendar_today">Heute</string>
+    <string name="calendar_day_description">%1$s: %2$d XP, %3$d gemeistert</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_subtitle">Passe Wortschatz an dich an.</string>
+    <string name="settings_appearance">Darstellung</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Hell</string>
+    <string name="settings_theme_dark">Dunkel</string>
+    <string name="settings_theme_system_desc">Folgt der Systemeinstellung.</string>
+    <string name="settings_theme_light_desc">Immer die helle Farbpalette.</string>
+    <string name="settings_theme_dark_desc">Immer die dunkle Farbpalette.</string>
+    <string name="settings_language">Muttersprache</string>
+    <string name="settings_language_body">Sprache der Oberfläche und deiner Übersetzungen. Die Sprache, die du übst, ist die Fremdsprache.</string>
+    <string name="settings_language_german">Deutsch</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_mascot">Dein Maskottchen</string>
+    <string name="settings_mascot_body">Wähle deinen Begleiter für Dashboard und Runden.</string>
+    <string name="settings_footer">Änderungen werden sofort gespeichert.</string>
+    <string name="mascot_fox">Fuchs</string>
+    <string name="mascot_chameleon">Chamäleon</string>
+    <string name="mascot_dog">Hund</string>
+    <string name="mascot_fox_tagline">Clever, neugierig und immer an deiner Seite.</string>
+    <string name="mascot_chameleon_tagline">Anpassungsfähig und bereit für jede Sprache.</string>
+    <string name="mascot_dog_tagline">Loyal, fröhlich und dein größter Fan.</string>
+
+    <!-- Library -->
+    <string name="library_title">Meine Vokabeln</string>
+    <string name="library_subtitle">Alle Wörter aus allen Ordnern – nach Sprache sortiert.</string>
+    <string name="search_hint">Vokabeln durchsuchen</string>
+    <string name="filter_all_languages">Alle Sprachen</string>
+    <string name="empty_search_title">Nichts gefunden</string>
+    <string name="empty_search_body">Probiere einen anderen Suchbegriff oder Filter.</string>
+    <string name="reset_filters">Filter zurücksetzen</string>
+    <string name="add_word_title">Neue Vokabel</string>
+    <string name="edit_word_title">Vokabel bearbeiten</string>
+    <string name="field_native">Muttersprache</string>
+    <string name="field_foreign">Fremdsprache</string>
+    <string name="field_language">Sprache</string>
+    <string name="field_category">Kategorie</string>
+    <string name="field_folder">Ordner</string>
+    <string name="placeholder_native">z. B. der Apfel</string>
+    <string name="placeholder_foreign">z. B. la pomme</string>
+    <string name="placeholder_language">z. B. Französisch</string>
+    <string name="placeholder_category">z. B. Essen</string>
+    <string name="language_suggestions">Schnellauswahl</string>
+    <string name="form_error_native">Bitte gib die Muttersprache ein.</string>
+    <string name="form_error_foreign">Bitte gib die Fremdsprache ein.</string>
+    <string name="form_error_language">Bitte gib eine Sprache an.</string>
+    <string name="delete_word_title">Vokabel löschen?</string>
+    <string name="delete_word_body">„%1$s“ wird dauerhaft entfernt.</string>
+    <string name="word_added">Vokabel hinzugefügt</string>
+    <string name="word_updated">Vokabel gespeichert</string>
+    <string name="word_deleted">Vokabel gelöscht</string>
+    <string name="category_fallback">Allgemein</string>
+    <string name="folder_editor_empty">Noch keine Ordner. Lege sie oben in der Bibliothek an.</string>
+
+    <!-- Folders -->
+    <string name="folder_all">Alle Ordner</string>
+    <string name="library_scope_all_folders">aus allen Ordnern</string>
+    <string name="folder_none">Kein Ordner</string>
+    <string name="folder_add">Ordner anlegen</string>
+    <string name="folder_manage_title">Ordner verwalten</string>
+    <string name="folder_manage_body">Fasse Vokabeln für einen Test oder ein Thema zusammen.</string>
+    <string name="folder_name_label">Ordnername</string>
+    <string name="folder_name_placeholder">z. B. Test 21.11</string>
+    <string name="folder_empty_list">Noch keine Ordner angelegt.</string>
+    <string name="folder_name_exists">Diesen Ordnernamen gibt es schon.</string>
+    <string name="folder_name_required">Bitte gib einen Namen ein.</string>
+    <string name="folder_created">Ordner angelegt</string>
+    <string name="folder_deleted">Ordner gelöscht</string>
+    <string name="folder_delete_note">Vokabeln bleiben beim Löschen erhalten.</string>
+    <string name="folder_delete_cd">Ordner löschen: %1$s</string>
+    <string name="folder_empty_title">Dieser Ordner ist noch leer</string>
+    <string name="folder_empty_body">Weise Vokabeln beim Bearbeiten einem Ordner zu.</string>
+    <string name="folder_chip">%1$s · %2$d</string>
+
+    <!-- Session setup -->
+    <string name="setup_title">Runde vorbereiten</string>
+    <string name="setup_headline">Was lernst du heute?</string>
+    <string name="setup_subtitle">Wähle Lernstoff, Richtung, Ziel und Fokus.</string>
+    <string name="setup_source">Lernstoff</string>
+    <string name="source_language">Sprache</string>
+    <string name="source_folder">Ordner</string>
+    <string name="section_language">Fremdsprache</string>
+    <string name="section_folder">Ordner</string>
+    <string name="section_goal">Sitzungsziel</string>
+    <string name="section_direction">Lernrichtung</string>
+    <string name="section_answer_mode">Antwortmodus</string>
+    <string name="direction_foreign_native">Fremdsprache → Muttersprache</string>
+    <string name="direction_native_foreign">Muttersprache → Fremdsprache</string>
+    <string name="direction_foreign_native_desc">Du siehst die Fremdsprache und antwortest in deiner Muttersprache.</string>
+    <string name="direction_native_foreign_desc">Du siehst deine Muttersprache und antwortest in der Fremdsprache.</string>
+    <string name="answer_choice">Auswahl</string>
+    <string name="answer_typing">Schreiben</string>
+    <string name="answer_choice_desc">Wähle aus vier Antworten.</string>
+    <string name="answer_typing_desc">Tippe die Übersetzung selbst ein.</string>
+    <string name="goal_hint">Jede Vokabel zählt erst als gelernt, wenn du sie zweimal richtig hattest.</string>
+    <string name="goal_capped">Nur %1$d Vokabeln verfügbar – wir nutzen alle.</string>
+    <string name="goal_all_count">Alle (%1$d)</string>
+    <string name="goal_custom">Eigene Zahl</string>
+    <string name="goal_custom_label">Anzahl Vokabeln</string>
+    <string name="goal_custom_invalid">Gib eine Zahl zwischen 2 und %1$d ein.</string>
+    <string name="focus_title">Fokus-Modus</string>
+    <string name="focus_body">Sperrt die App mit Screen Pinning. Es gibt keinen Abbrechen-Button, bis alle Vokabeln zweimal richtig sind.</string>
+    <string name="focus_warning">Beim Start bestätigt Android eventuell das Anheften des Bildschirms. Zurück-Gesten werden blockiert.</string>
+    <string name="focus_active">Fokus aktiv</string>
+    <string name="focus_inactive">Nicht aktiv</string>
+    <string name="start_session">Runde starten</string>
+    <string name="start_summary">%1$s · %2$d Vokabeln</string>
+    <string name="not_enough_words">Du brauchst mindestens 2 Vokabeln in dieser Auswahl.</string>
+    <string name="setup_add_words">Vokabeln hinzufügen</string>
+    <string name="setup_manage_folders">Zur Bibliothek</string>
+    <string name="no_languages_title">Noch keine Vokabeln</string>
+    <string name="no_languages_body">Lege zuerst ein paar Vokabeln an, dann kann deine erste Runde starten.</string>
+    <string name="setup_folder_empty_title">Noch keine Ordner</string>
+    <string name="setup_folder_empty_body">Lege in der Bibliothek einen Ordner an und fülle ihn mit Vokabeln.</string>
+
+    <!-- Learning session -->
+    <string name="session_instruction">Wähle die richtige Übersetzung</string>
+    <string name="session_instruction_typing">Schreibe die richtige Übersetzung</string>
+    <string name="session_focus_locked">Fokus-Modus aktiv – beende zuerst die Runde.</string>
+    <string name="session_progress">%1$d von %2$d gemeistert</string>
+    <string name="session_question_label">Was bedeutet das?</string>
+    <string name="session_question_reverse">Wie lautet die Übersetzung?</string>
+    <string name="correct_title">Richtig!</string>
+    <string name="correct_next">Noch 1× richtig, dann sitzt sie.</string>
+    <string name="correct_mastered">Vokabel gemeistert!</string>
+    <string name="wrong_title">Fast geschafft!</string>
+    <string name="wrong_body">Richtig ist: %1$s</string>
+    <string name="wrong_hint">Diese Vokabel kommt später noch einmal.</string>
+    <string name="loading_words">Runde wird vorbereitet …</string>
+    <string name="session_no_words">Für diese Auswahl wurden keine Vokabeln gefunden.</string>
+    <string name="session_locked_chip">Fokus</string>
+    <string name="typed_answer_label">Deine Antwort</string>
+    <string name="typed_answer_placeholder">Übersetzung eingeben</string>
+    <string name="typed_answer_hint">Groß-/Kleinschreibung und Akzente sind nicht entscheidend.</string>
+    <string name="cd_answer_input">Antwortfeld</string>
+
+    <!-- Results -->
+    <string name="result_headline">Runde geschafft!</string>
+    <string name="result_perfect">Perfekte Runde!</string>
+    <string name="result_perfect_body">Kein Fehler. +%1$d Bonus-XP</string>
+    <string name="result_subtitle">%1$s · %2$d Vokabeln gemeistert</string>
+    <string name="result_stat_words">Gemeistert</string>
+    <string name="result_stat_accuracy">Trefferquote</string>
+    <string name="result_stat_xp">XP verdient</string>
+    <string name="result_stat_time">Zeit</string>
+    <string name="result_accuracy_value">%1$d %%</string>
+    <string name="result_xp_value">+%1$d XP</string>
+    <string name="result_perfect_badge">PERFEKT</string>
+    <string name="duration_seconds">%1$d Sek.</string>
+    <string name="duration_minutes">%1$d:%2$02d Min.</string>
+
+    <!-- Accessibility -->
+    <string name="cd_daily_goal">Tagesziel: %1$d von %2$d XP</string>
+    <string name="cd_back">Zurück</string>
+    <string name="cd_add_word">Vokabel hinzufügen</string>
+    <string name="cd_edit_word">Vokabel bearbeiten: %1$s</string>
+    <string name="cd_delete_word">Vokabel löschen: %1$s</string>
+    <string name="cd_mascot">Wortschatz-Maskottchen</string>
+    <string name="cd_correct">Richtige Antwort</string>
+    <string name="cd_wrong">Falsche Antwort</string>
+    <string name="cd_settings">Einstellungen</string>
+    <string name="cd_manage_folders">Ordner verwalten</string>
+    <string name="cd_week_goal_met">, Ziel erreicht</string>
+    <string name="cd_week_today">, heute</string>
+</resources>

@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Speech bubble -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,26h28a14,14 0 0 1 14,14v22a14,14 0 0 1 -14,14H58l-13,10v-10h-5a14,14 0 0 1 -14,-14V40a14,14 0 0 1 14,-14z" />
+
+    <!-- Stylized letter A, representing language learning without a fixed mascot -->
+    <path
+        android:pathData="M44,66 L53,39 L57,39 L66,66"
+        android:strokeColor="#58CC02"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M48,56 L62,56"
+        android:strokeColor="#58CC02"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FFC800"
+        android:pathData="M78,30m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+</vector>

@@ -1,0 +1,30 @@
+# Local Android/Gradle state
+.gradle/
+.gradle-home/
+.kotlin/
+.idea/
+.tools/
+.android-sdk/
+local.properties
+captures/
+build/
+*.iml
+
+# Native build output
+.externalNativeBuild/
+.cxx/
+*.hprof
+.DS_Store
+
+# Signing material and secrets — never publish these
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+secrets.properties
+
+# Release artifacts (uploaded separately to GitHub Releases)
+dist/
+*.apk
+*.aab
